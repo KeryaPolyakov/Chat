@@ -20,5 +20,5 @@
 ![Чат](https://github.com/user-attachments/assets/b794bf0c-74a8-4691-8f56-c70901886737)
 
 ### Чат
-![Чат2](https://github.com/user-attachments/assets/bbb9a97c-9db4-4433-93fa-fa5c69ae57a2)
+![Чат2](https://github.com/user-attachments/assets/bbb9a97c-9db4-4433-93fa-fa5c69ae57a2) 
 
