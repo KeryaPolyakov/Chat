@@ -1,0 +1,46 @@
+### add User
+POST localhost:8080/user
+Content-Type: Application/json
+
+{
+  "username": "a",
+  "password": "a"
+}
+
+### add User
+POST localhost:8080/user
+Content-Type: Application/json
+
+{
+  "username": "b",
+  "password": "b"
+}
+
+### add User
+POST localhost:8080/user
+Content-Type: Application/json
+
+{
+  "username": "q",
+  "password": "q"
+}
+
+### authentication
+GET localhost:8080/user/authentication
+Authorization: Basic a a
+
+### add message
+POST localhost:8080/message/1
+Authorization: Basic a a
+Content-Type: Application/json
+
+{
+  "message" : "hello!!!"
+}
+
+### get Online
+GET localhost:8080/user/online
+Authorization: Basic a a
+
+### add Emitter
+GET localhost:8080/sse/chat/1

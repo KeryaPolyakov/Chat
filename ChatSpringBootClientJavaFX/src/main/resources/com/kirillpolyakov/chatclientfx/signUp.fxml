@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="238.0" prefWidth="225.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.kirillpolyakov.chatclientfx.controllers.SignUpController">
+   <children>
+      <Text layoutX="23.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please entere login and password" />
+      <Button fx:id="buttonSignUp" layoutX="83.0" layoutY="154.0" mnemonicParsing="false" onAction="#buttonSignUp" text="Sign Up" />
+      <Label layoutX="26.0" layoutY="65.0" text="login" />
+      <Label layoutX="14.0" layoutY="117.0" text="password" />
+      <TextField fx:id="textFieldLogin" layoutX="68.0" layoutY="61.0" prefHeight="26.0" prefWidth="122.0" />
+      <TextField fx:id="textFieldPassword" layoutX="68.0" layoutY="113.0" prefHeight="26.0" prefWidth="122.0" />
+      <Button fx:id="buttonSignIn" layoutX="85.0" layoutY="191.0" mnemonicParsing="false" onAction="#buttonSignIn" text="Sign in" />
+   </children>
+</AnchorPane>
